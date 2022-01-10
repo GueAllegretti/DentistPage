@@ -1,0 +1,97 @@
+:root {
+    --primary-color: #0c6bb2;
+    --back-color: #dbdbdd;
+    --secondary-color: #ef8200;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text) !important;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-color);
+}
+
+.text-masthead {
+    font-size: 16px;
+    text-align: center;
+}
+
+.text-card, .text-card-h5 {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.text-card-h2, .text-card-h4 {
+    text-align: center;
+}
+
+.nav-color-active {
+    text-decoration: underline;
+}
+
+.nav-color:hover {
+    color: var(--secondary-color);
+}
+
+.nav-color-active-home {
+    color: var(--secondary-color);
+}
+
+.navBar  {
+    background-color: var(--primary-color);
+    color: var(--back-color);
+}
+
+.nav-btn-collapse {
+    color: var(--back-color);
+    
+}
+
+.masthead-btn {
+    background: var(--secondary-color);
+    border: var(--secondary-color);
+}
+
+.masthead-btn:hover {
+    background: var(--primary-color);
+    border: var(--primary-color);
+}
+
+.card-btn {
+    background: var(--secondary-color);
+    border: var(--secondary-color);
+    font-size: 12px;
+}
+
+.card-btn:hover {
+    background: var(--primary-color);
+    border: var(--primary-color);
+}
+
+.doctor-btn {
+    background: var(--secondary-color);
+    border: var(--secondary-color);
+    font-size: 14px;
+}
+
+.doctor-btn:hover {
+    background: var(--primary-color);
+    border: var(--primary-color);
+}
+
+.card-section {
+    margin-top: 10%;
+    box-shadow: 5px 5px 0 0 var(--back-color);
+}
+
+.card-section:hover {
+    box-shadow: none;
+}
+
+footer {
+    background-color: var(--back-color);
+}
+
